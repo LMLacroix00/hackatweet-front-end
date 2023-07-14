@@ -7,15 +7,111 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-    width: 40vw;
-    height: 100vh;
+    width:35vw;
+    height:100vh;
     background-image: url("../public/loginScreenBackground.png");
 }
 
 .twitterLogo{
     width: 50%;
     height: 50%;
+    transform: rotate(180deg);
+    display: flex;
+  justify-content: center;
+  margin: 20px 50px 20px 20px; 
+}
+.loginScreenRightPart {
+    background-color: rgb(19, 31, 44) ;
+    width:70vw;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
   
+
+}
+.texth1{
+    font-family: "Verdana";
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 85px;   
+    margin-top : 10px;
+    margin-left: 10px;
+}
+.texth3{
+    font-family: "Verdana";
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+.texth6{
+    font-family: "Verdana";
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40px;
+    font-size: 15px;
+    
+}
+.logo2{
+    width: 5%;
+    height: 5%;
+    display: flex;
+  justify-content: center;
+  margin-right: 820px;
+  transform: rotate(180deg)
+
+}
+.buttonSignUp {
+    color: white;
+    background-color: dodgerblue;
+    display: inline-block;
+    border-radius: 9999px;
+    padding: 10px 70px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 10 px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 10px;
+
+  }
+.buttonSignIn{
+    background-color: rgb(19, 31, 44);
+    display: inline-block;
+    border-radius: 9999px;
+    color: dodgerblue;
+    padding: 10px 70px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 10 px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+}
+.input{
+    background-color: rgb(19, 31, 44);
+    display: flex;
+    color:white;
+    padding: 10px 40px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    flex-direction:column;
+    justify-content:flex-start;
+    margin-top: 10px;
+    margin-left: 20px;
 }
