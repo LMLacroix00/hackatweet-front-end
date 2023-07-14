@@ -1,0 +1,9 @@
+.loginScreenParentContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.loginScreenLeftPart{
+    background-image: url("../public/loginScreenBackground.png");
+}
+
