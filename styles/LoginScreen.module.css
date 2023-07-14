@@ -1,0 +1,21 @@
+.loginScreenParentContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.loginScreenLeftPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 40vw;
+    height: 100vh;
+    background-image: url("../public/loginScreenBackground.png");
+}
+
+.twitterLogo{
+    width: 50%;
+    height: 50%;
+  
+}
