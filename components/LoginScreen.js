@@ -1,3 +1,4 @@
+import { useRouter } from 'next/router'
 import React from "react";
 import styles from '../styles/LoginScreen.module.css';
 import { useEffect, useState } from 'react';
@@ -9,7 +10,11 @@ import Link from 'next/link';
 
 
 
+
 function LoginScreen() {
+
+
+  
   const [signUpUsername, setSignUpUsername] = useState('');
 	const [signUpPassword, setSignUpPassword] = useState('');
   const [signUpFirstname, setSignUpFirstname] = useState('');
@@ -55,7 +60,9 @@ function LoginScreen() {
 	};
 
 if(user.token){
+
   return(
+
     <div>
       <Link href="/home"> You are logged In </Link>
     </div>
