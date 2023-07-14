@@ -17,7 +17,10 @@
  }
 
  .user{
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   border : 0.5px solid gainsboro;
   width: 25vw;
  }
@@ -49,4 +52,21 @@
   display: flex;
   
   
+ }
+
+ .userwindow{
+  border: 10px white;
+  padding: 200px;
+
+ }
+
+ .userInfoContainer{
+  display: flex;
+  align-items: column;
+ }
+
+ .userimg{
+  border-radius: 50%;
+  width: 25%;
+  height: 25%;
  }
