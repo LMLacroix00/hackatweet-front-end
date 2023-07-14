@@ -5,18 +5,48 @@
   align-items: center;
   min-height: 100vh;
   padding: 4rem 0;
+  
+  
 }
+ .container{
+  display : flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(23,31,42) ;
+ }
 
-.title {
-  line-height: 1.15;
-  font-size: 4rem;
-}
+ .user{
+  
+  border : 0.5px solid gainsboro;
+  width: 25vw;
+ }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
+ .home{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border : 0.5px solid gainsboro;
+  width : 50vw;
+ }
 
-.title a:hover, .title a:focus, .title a:active {
-  text-decoration: underline;
-}
+ .trends{
+
+  color: white;
+  border : 0.5px solid gainsboro;
+  width : 25vw;
+ }
+
+ .logo{
+  height: 45px;
+  width: 45px;
+  margin-left: 25px;
+  margin-top: 10px;
+  
+ }
+
+ .tweet{
+  display: flex;
+  
+  
+ }
