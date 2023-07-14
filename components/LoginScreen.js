@@ -7,7 +7,7 @@ function LoginScreen() {
   return (
     <div className = {styles.loginScreenParentContainer}>
       <div className = {styles.loginScreenLeftPart}> 
-        <img src = "logo.jpg"/>
+        <img className = {styles.twitterLogo} src = "logo.png"/>
       </div>
       <div className = {styles.loginScreenRightPart}> 
         <h1 className={styles.title}>See what's happening</h1>
